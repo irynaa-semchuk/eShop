@@ -40,6 +40,7 @@ namespace eShop
                 options.Password.RequireNonAlphanumeric = false;
             })
                 .AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultUI().AddDefaultTokenProviders();
+	    services.AddTransient<ICommentRepository, EFCommentRepository>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
