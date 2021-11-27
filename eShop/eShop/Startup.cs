@@ -12,6 +12,8 @@ using eShop.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using eShop.Models.Interfaces;
+using eShop.Models.Implementation;
 
 namespace eShop
 {

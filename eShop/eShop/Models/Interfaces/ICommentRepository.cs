@@ -1,6 +1,7 @@
-﻿using System.Linq;
+﻿using eShop.Models.Data;
+using System.Linq;
 
-namespace PAIS.Models
+namespace eShop.Models.Interfaces
 {
     public interface ICommentRepository
     {

@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using eShop.Models.Data;
+using eShop.Models.Interfaces;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace PAIS.Models
+namespace eShop.Models.Implementation
 {
     public class EFCommentRepository: ICommentRepository
     {
